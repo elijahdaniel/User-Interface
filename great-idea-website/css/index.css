@@ -64,3 +64,110 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+
+nav {
+	margin: 20px 0px;
+	text-align: center;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	padding: 0px 20px;
+	text-align: center;
+	border-radius: 15px;
+	transition: background 1s ease, color .5s ease;
+}
+
+nav a:hover {
+	color: white;
+	background: black;
+	border-radius: 15px;
+	box-shadow: 0 8px 6px -6px gray;
+}
+
+.logo {
+	vertical-align: text-bottom;
+	width: 150px;
+	padding-left: 10px;
+}
+
+#get-started {
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+header {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 40px;
+}
+
+header img {
+	vertical-align: middle;
+	width: 300px;
+}
+
+header H1 {
+	display: inline-block;
+	font-size: 45px;
+	padding: 20px;
+}
+
+header H1 A {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+	padding: 5px 20px;
+	margin: 20px;
+	text-decoration: none;
+	color: black;
+	transition: background 1s ease, color .5s ease;
+	box-shadow: 0 8px 6px -6px gray;
+}
+
+header H1 A:hover {
+	background-image: linear-gradient(to bottom, rgb(105, 105, 105), black);
+	color: white;
+}
+
+.box-rows {
+	width: 850px;
+}
+
+.boxtop {
+	width: 400px;
+	display: inline-block;
+	padding: 20px;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.boxbottom {
+	width: 270px;
+	display: inline-block;
+	padding: 20px;
+}
+
+hr {
+	border: 1px solid black;
+}
+
+#contact {
+	padding-top: 30px;
+	margin-bottom: 80px;
+}
+
+footer {
+	text-align: center;
+}

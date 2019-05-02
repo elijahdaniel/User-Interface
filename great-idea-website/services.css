@@ -67,23 +67,41 @@ h1, h2, h3, h4, h5 {
 
 @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz');
 
+body {
+    background-image: url("img/IMG_3037.JPG");
+    background-size: cover;
+	background-attachment: fixed;
+}
+
 .container {
 	width: 800px;
-	margin: 0 auto;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.829);
+    height: 100%;
 }
 
 nav {
-	margin: 10px;
+	margin:0px;
 	text-align: center;
-	background: white;
-	padding-bottom: 5px;
+	position: fixed;
+	background: rgba(255, 255, 255, 0.829);
 	z-index: 1;
 	width: 800px;
+	height: 40px;
 }
 
 nav ul {
 	display: flex;
-	justify-content: space-evenly;
+	flex-direction: row;
+	width: 800px;
+	padding-top: 10px;
+}
+
+nav img {
+	position: relative;
+	top: -5px;
+	width: 150px;
+    padding-left: 10px;
 }
 
 nav a {
@@ -101,82 +119,4 @@ nav a:hover {
 	background: black;
 	border-radius: 0;
 	box-shadow: 0 8px 6px -6px gray;
-}
-
-.logo {
-	vertical-align: text-bottom;
-	width: 150px;
-	padding-left: 10px;
-}
-
-header {
-	text-align: center;
-	padding-top: 60px;
-	padding-bottom: 40px;
-	display: flex;
-	justify-content: space-evenly;
-}
-
-header img {
-	width: 300px;
-	height: 300px;
-}
-
-header H1 {
-	font-size: 45px;
-	padding: 20px;
-}
-
-header H1 A {
-	font-family: 'Titillium Web', sans-serif;
-	font-size: 20px;
-	border: 1px solid black;
-	border-radius: 20px;
-	padding: 5px 20px;
-	margin: 20px;
-	text-decoration: none;
-	color: black;
-	transition: background 1s ease, color .5s ease;
-	box-shadow: 0 8px 6px -6px gray;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-
-header H1 A:hover {
-	background-image: linear-gradient(to bottom, rgb(105, 105, 105), black);
-	color: white;
-}
-
-.box-rows {
-	width: 850px;
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-.boxtop {
-	width: 400px;
-	padding: 20px;
-}
-
-.middle-img {
-	width: 100%;
-}
-
-.boxbottom {
-	width: 270px;
-	padding: 20px;
-}
-
-hr {
-	border: 1px solid black;
-}
-
-#contact {
-	padding-top: 30px;
-	margin-bottom: 80px;
-}
-
-footer {
-	text-align: center;
 }
